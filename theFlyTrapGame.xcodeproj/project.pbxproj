@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEBB9D0237A089A0031BBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9CF237A089A0031BBE0 /* AppDelegate.swift */; };
+		AEEBB9D2237A089A0031BBE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9D1237A089A0031BBE0 /* GameViewController.swift */; };
+		AEEBB9D5237A089A0031BBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9D3237A089A0031BBE0 /* Main.storyboard */; };
+		AEEBB9D8237A089A0031BBE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9D6237A089A0031BBE0 /* LaunchScreen.storyboard */; };
+		AEEBB9DD237A089A0031BBE0 /* theFlyTrapGame.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AEEBB9DC237A089A0031BBE0 /* theFlyTrapGame.app */; };
+		AEEBB9E3237A089A0031BBE0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9E1237A089A0031BBE0 /* Interface.storyboard */; };
+		AEEBB9EA237A089A0031BBE0 /* theFlyTrapGame Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AEEBB9E9237A089A0031BBE0 /* theFlyTrapGame Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AEEBB9EF237A089A0031BBE0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9EE237A089A0031BBE0 /* InterfaceController.swift */; };
+		AEEBB9F1237A089A0031BBE0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9F0237A089A0031BBE0 /* ExtensionDelegate.swift */; };
+		AEEBB9FA237A089A0031BBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9F9237A089A0031BBE0 /* AppDelegate.swift */; };
+		AEEBB9FC237A089A0031BBE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9FB237A089A0031BBE0 /* GameViewController.swift */; };
+		AEEBB9FF237A089A0031BBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9FD237A089A0031BBE0 /* Main.storyboard */; };
+		AEEBBA08237A089A0031BBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBBA07237A089A0031BBE0 /* AppDelegate.swift */; };
+		AEEBBA0A237A089A0031BBE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBBA09237A089A0031BBE0 /* GameViewController.swift */; };
+		AEEBBA0D237A089A0031BBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEBBA0B237A089A0031BBE0 /* Main.storyboard */; };
+		AEEBBA0F237A089A0031BBE0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C4237A08970031BBE0 /* Actions.sks */; };
+		AEEBBA10237A089A0031BBE0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C4237A08970031BBE0 /* Actions.sks */; };
+		AEEBBA11237A089A0031BBE0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C4237A08970031BBE0 /* Actions.sks */; };
+		AEEBBA12237A089A0031BBE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C5237A08970031BBE0 /* GameScene.sks */; };
+		AEEBBA13237A089A0031BBE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C5237A08970031BBE0 /* GameScene.sks */; };
+		AEEBBA14237A089A0031BBE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C5237A08970031BBE0 /* GameScene.sks */; };
+		AEEBBA15237A089A0031BBE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C5237A08970031BBE0 /* GameScene.sks */; };
+		AEEBBA16237A089A0031BBE0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9C6237A08970031BBE0 /* GameScene.swift */; };
+		AEEBBA17237A089A0031BBE0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9C6237A08970031BBE0 /* GameScene.swift */; };
+		AEEBBA18237A089A0031BBE0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9C6237A08970031BBE0 /* GameScene.swift */; };
+		AEEBBA19237A089A0031BBE0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9C6237A08970031BBE0 /* GameScene.swift */; };
+		AEEBBA1A237A089A0031BBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C7237A089A0031BBE0 /* Assets.xcassets */; };
+		AEEBBA1B237A089A0031BBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C7237A089A0031BBE0 /* Assets.xcassets */; };
+		AEEBBA1C237A089A0031BBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C7237A089A0031BBE0 /* Assets.xcassets */; };
+		AEEBBA1D237A089A0031BBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9C7237A089A0031BBE0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEEBB9DE237A089A0031BBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEBB9BF237A08970031BBE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEBB9DB237A089A0031BBE0;
+			remoteInfo = "theFlyTrapGame watchOS App";
+		};
+		AEEBB9EB237A089A0031BBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEBB9BF237A08970031BBE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEBB9E8237A089A0031BBE0;
+			remoteInfo = "theFlyTrapGame watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEEBBA23237A089A0031BBE0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AEEBB9EA237A089A0031BBE0 /* theFlyTrapGame Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBBA27237A089A0031BBE0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AEEBB9DD237A089A0031BBE0 /* theFlyTrapGame.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEEBB9C4237A08970031BBE0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AEEBB9C5237A08970031BBE0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AEEBB9C6237A08970031BBE0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AEEBB9C7237A089A0031BBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEBB9CC237A089A0031BBE0 /* theFlyTrapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theFlyTrapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEBB9CF237A089A0031BBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEEBB9D1237A089A0031BBE0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AEEBB9D4237A089A0031BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEBB9D7237A089A0031BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEBB9D9237A089A0031BBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEBB9DC237A089A0031BBE0 /* theFlyTrapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theFlyTrapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEBB9E2237A089A0031BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AEEBB9E4237A089A0031BBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEBB9E9237A089A0031BBE0 /* theFlyTrapGame Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "theFlyTrapGame Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEBB9EE237A089A0031BBE0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AEEBB9F0237A089A0031BBE0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AEEBB9F2237A089A0031BBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEBB9F7237A089A0031BBE0 /* theFlyTrapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theFlyTrapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEBB9F9237A089A0031BBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEEBB9FB237A089A0031BBE0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AEEBB9FE237A089A0031BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEBBA00237A089A0031BBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEBBA05237A089A0031BBE0 /* theFlyTrapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theFlyTrapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEBBA07237A089A0031BBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEEBBA09237A089A0031BBE0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AEEBBA0C237A089A0031BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEBBA0E237A089A0031BBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEBB9C9237A089A0031BBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9E6237A089A0031BBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9F4237A089A0031BBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBBA02237A089A0031BBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEBB9BE237A08970031BBE0 = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9C3237A08970031BBE0 /* theFlyTrapGame Shared */,
+				AEEBB9CE237A089A0031BBE0 /* theFlyTrapGame iOS */,
+				AEEBB9E0237A089A0031BBE0 /* theFlyTrapGame watchOS App */,
+				AEEBB9ED237A089A0031BBE0 /* theFlyTrapGame watchOS App Extension */,
+				AEEBB9F8237A089A0031BBE0 /* theFlyTrapGame tvOS */,
+				AEEBBA06237A089A0031BBE0 /* theFlyTrapGame macOS */,
+				AEEBB9CD237A089A0031BBE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEBB9C3237A08970031BBE0 /* theFlyTrapGame Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9C4237A08970031BBE0 /* Actions.sks */,
+				AEEBB9C5237A08970031BBE0 /* GameScene.sks */,
+				AEEBB9C6237A08970031BBE0 /* GameScene.swift */,
+				AEEBB9C7237A089A0031BBE0 /* Assets.xcassets */,
+			);
+			path = "theFlyTrapGame Shared";
+			sourceTree = "<group>";
+		};
+		AEEBB9CD237A089A0031BBE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9CC237A089A0031BBE0 /* theFlyTrapGame.app */,
+				AEEBB9DC237A089A0031BBE0 /* theFlyTrapGame.app */,
+				AEEBB9E9237A089A0031BBE0 /* theFlyTrapGame Extension.appex */,
+				AEEBB9F7237A089A0031BBE0 /* theFlyTrapGame.app */,
+				AEEBBA05237A089A0031BBE0 /* theFlyTrapGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEBB9CE237A089A0031BBE0 /* theFlyTrapGame iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9CF237A089A0031BBE0 /* AppDelegate.swift */,
+				AEEBB9D1237A089A0031BBE0 /* GameViewController.swift */,
+				AEEBB9D3237A089A0031BBE0 /* Main.storyboard */,
+				AEEBB9D6237A089A0031BBE0 /* LaunchScreen.storyboard */,
+				AEEBB9D9237A089A0031BBE0 /* Info.plist */,
+			);
+			path = "theFlyTrapGame iOS";
+			sourceTree = "<group>";
+		};
+		AEEBB9E0237A089A0031BBE0 /* theFlyTrapGame watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9E1237A089A0031BBE0 /* Interface.storyboard */,
+				AEEBB9E4237A089A0031BBE0 /* Info.plist */,
+			);
+			path = "theFlyTrapGame watchOS App";
+			sourceTree = "<group>";
+		};
+		AEEBB9ED237A089A0031BBE0 /* theFlyTrapGame watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9EE237A089A0031BBE0 /* InterfaceController.swift */,
+				AEEBB9F0237A089A0031BBE0 /* ExtensionDelegate.swift */,
+				AEEBB9F2237A089A0031BBE0 /* Info.plist */,
+			);
+			path = "theFlyTrapGame watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		AEEBB9F8237A089A0031BBE0 /* theFlyTrapGame tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9F9237A089A0031BBE0 /* AppDelegate.swift */,
+				AEEBB9FB237A089A0031BBE0 /* GameViewController.swift */,
+				AEEBB9FD237A089A0031BBE0 /* Main.storyboard */,
+				AEEBBA00237A089A0031BBE0 /* Info.plist */,
+			);
+			path = "theFlyTrapGame tvOS";
+			sourceTree = "<group>";
+		};
+		AEEBBA06237A089A0031BBE0 /* theFlyTrapGame macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBBA07237A089A0031BBE0 /* AppDelegate.swift */,
+				AEEBBA09237A089A0031BBE0 /* GameViewController.swift */,
+				AEEBBA0B237A089A0031BBE0 /* Main.storyboard */,
+				AEEBBA0E237A089A0031BBE0 /* Info.plist */,
+			);
+			path = "theFlyTrapGame macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEBB9CB237A089A0031BBE0 /* theFlyTrapGame iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEBBA28237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame iOS" */;
+			buildPhases = (
+				AEEBB9C8237A089A0031BBE0 /* Sources */,
+				AEEBB9C9237A089A0031BBE0 /* Frameworks */,
+				AEEBB9CA237A089A0031BBE0 /* Resources */,
+				AEEBBA27237A089A0031BBE0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEBB9DF237A089A0031BBE0 /* PBXTargetDependency */,
+			);
+			name = "theFlyTrapGame iOS";
+			productName = "theFlyTrapGame iOS";
+			productReference = AEEBB9CC237A089A0031BBE0 /* theFlyTrapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEBB9DB237A089A0031BBE0 /* theFlyTrapGame watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEBBA24237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame watchOS App" */;
+			buildPhases = (
+				AEEBB9DA237A089A0031BBE0 /* Resources */,
+				AEEBBA23237A089A0031BBE0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEBB9EC237A089A0031BBE0 /* PBXTargetDependency */,
+			);
+			name = "theFlyTrapGame watchOS App";
+			productName = "theFlyTrapGame watchOS App";
+			productReference = AEEBB9DC237A089A0031BBE0 /* theFlyTrapGame.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AEEBB9E8237A089A0031BBE0 /* theFlyTrapGame watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEBBA20237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame watchOS App Extension" */;
+			buildPhases = (
+				AEEBB9E5237A089A0031BBE0 /* Sources */,
+				AEEBB9E6237A089A0031BBE0 /* Frameworks */,
+				AEEBB9E7237A089A0031BBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "theFlyTrapGame watchOS App Extension";
+			productName = "theFlyTrapGame watchOS App Extension";
+			productReference = AEEBB9E9237A089A0031BBE0 /* theFlyTrapGame Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		AEEBB9F6237A089A0031BBE0 /* theFlyTrapGame tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEBBA2B237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame tvOS" */;
+			buildPhases = (
+				AEEBB9F3237A089A0031BBE0 /* Sources */,
+				AEEBB9F4237A089A0031BBE0 /* Frameworks */,
+				AEEBB9F5237A089A0031BBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "theFlyTrapGame tvOS";
+			productName = "theFlyTrapGame tvOS";
+			productReference = AEEBB9F7237A089A0031BBE0 /* theFlyTrapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEBBA04237A089A0031BBE0 /* theFlyTrapGame macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEBBA2E237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame macOS" */;
+			buildPhases = (
+				AEEBBA01237A089A0031BBE0 /* Sources */,
+				AEEBBA02237A089A0031BBE0 /* Frameworks */,
+				AEEBBA03237A089A0031BBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "theFlyTrapGame macOS";
+			productName = "theFlyTrapGame macOS";
+			productReference = AEEBBA05237A089A0031BBE0 /* theFlyTrapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEBB9BF237A08970031BBE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AEEBB9CB237A089A0031BBE0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AEEBB9DB237A089A0031BBE0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AEEBB9E8237A089A0031BBE0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AEEBB9F6237A089A0031BBE0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AEEBBA04237A089A0031BBE0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AEEBB9C2237A08970031BBE0 /* Build configuration list for PBXProject "theFlyTrapGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEBB9BE237A08970031BBE0;
+			productRefGroup = AEEBB9CD237A089A0031BBE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEBB9CB237A089A0031BBE0 /* theFlyTrapGame iOS */,
+				AEEBB9DB237A089A0031BBE0 /* theFlyTrapGame watchOS App */,
+				AEEBB9E8237A089A0031BBE0 /* theFlyTrapGame watchOS App Extension */,
+				AEEBB9F6237A089A0031BBE0 /* theFlyTrapGame tvOS */,
+				AEEBBA04237A089A0031BBE0 /* theFlyTrapGame macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEBB9CA237A089A0031BBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA12237A089A0031BBE0 /* GameScene.sks in Resources */,
+				AEEBB9D5237A089A0031BBE0 /* Main.storyboard in Resources */,
+				AEEBBA0F237A089A0031BBE0 /* Actions.sks in Resources */,
+				AEEBB9D8237A089A0031BBE0 /* LaunchScreen.storyboard in Resources */,
+				AEEBBA1A237A089A0031BBE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9DA237A089A0031BBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA1B237A089A0031BBE0 /* Assets.xcassets in Resources */,
+				AEEBB9E3237A089A0031BBE0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9E7237A089A0031BBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA13237A089A0031BBE0 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9F5237A089A0031BBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBB9FF237A089A0031BBE0 /* Main.storyboard in Resources */,
+				AEEBBA14237A089A0031BBE0 /* GameScene.sks in Resources */,
+				AEEBBA1C237A089A0031BBE0 /* Assets.xcassets in Resources */,
+				AEEBBA10237A089A0031BBE0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBBA03237A089A0031BBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA0D237A089A0031BBE0 /* Main.storyboard in Resources */,
+				AEEBBA15237A089A0031BBE0 /* GameScene.sks in Resources */,
+				AEEBBA1D237A089A0031BBE0 /* Assets.xcassets in Resources */,
+				AEEBBA11237A089A0031BBE0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEBB9C8237A089A0031BBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA16237A089A0031BBE0 /* GameScene.swift in Sources */,
+				AEEBB9D2237A089A0031BBE0 /* GameViewController.swift in Sources */,
+				AEEBB9D0237A089A0031BBE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9E5237A089A0031BBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA17237A089A0031BBE0 /* GameScene.swift in Sources */,
+				AEEBB9F1237A089A0031BBE0 /* ExtensionDelegate.swift in Sources */,
+				AEEBB9EF237A089A0031BBE0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBB9F3237A089A0031BBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA18237A089A0031BBE0 /* GameScene.swift in Sources */,
+				AEEBB9FC237A089A0031BBE0 /* GameViewController.swift in Sources */,
+				AEEBB9FA237A089A0031BBE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBBA01237A089A0031BBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEBBA19237A089A0031BBE0 /* GameScene.swift in Sources */,
+				AEEBBA0A237A089A0031BBE0 /* GameViewController.swift in Sources */,
+				AEEBBA08237A089A0031BBE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEBB9DF237A089A0031BBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEBB9DB237A089A0031BBE0 /* theFlyTrapGame watchOS App */;
+			targetProxy = AEEBB9DE237A089A0031BBE0 /* PBXContainerItemProxy */;
+		};
+		AEEBB9EC237A089A0031BBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEBB9E8237A089A0031BBE0 /* theFlyTrapGame watchOS App Extension */;
+			targetProxy = AEEBB9EB237A089A0031BBE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEEBB9D3237A089A0031BBE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEBB9D4237A089A0031BBE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEBB9D6237A089A0031BBE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEBB9D7237A089A0031BBE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEBB9E1237A089A0031BBE0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEBB9E2237A089A0031BBE0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEBB9FD237A089A0031BBE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEBB9FE237A089A0031BBE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEBBA0B237A089A0031BBE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEBBA0C237A089A0031BBE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEBBA1E237A089A0031BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEEBBA1F237A089A0031BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AEEBBA21237A089A0031BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "theFlyTrapGame watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "theFlyTrapGame Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		AEEBBA22237A089A0031BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "theFlyTrapGame watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "theFlyTrapGame Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		AEEBBA25237A089A0031BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = theFlyTrapGame_Extension;
+				INFOPLIST_FILE = "theFlyTrapGame watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame.watchkitapp;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		AEEBBA26237A089A0031BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = theFlyTrapGame_Extension;
+				INFOPLIST_FILE = "theFlyTrapGame watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame.watchkitapp;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		AEEBBA29237A089A0031BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "theFlyTrapGame iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEBBA2A237A089A0031BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "theFlyTrapGame iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEBBA2C237A089A0031BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "theFlyTrapGame tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+			};
+			name = Debug;
+		};
+		AEEBBA2D237A089A0031BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "theFlyTrapGame tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEBBA2F237A089A0031BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "theFlyTrapGame macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEEBBA30237A089A0031BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "theFlyTrapGame macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = singamet.sheridan.theFlyTrapGame;
+				PRODUCT_NAME = theFlyTrapGame;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEBB9C2237A08970031BBE0 /* Build configuration list for PBXProject "theFlyTrapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEBBA1E237A089A0031BBE0 /* Debug */,
+				AEEBBA1F237A089A0031BBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEBBA20237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEBBA21237A089A0031BBE0 /* Debug */,
+				AEEBBA22237A089A0031BBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEBBA24237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEBBA25237A089A0031BBE0 /* Debug */,
+				AEEBBA26237A089A0031BBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEBBA28237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEBBA29237A089A0031BBE0 /* Debug */,
+				AEEBBA2A237A089A0031BBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEBBA2B237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEBBA2C237A089A0031BBE0 /* Debug */,
+				AEEBBA2D237A089A0031BBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEBBA2E237A089A0031BBE0 /* Build configuration list for PBXNativeTarget "theFlyTrapGame macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEBBA2F237A089A0031BBE0 /* Debug */,
+				AEEBBA30237A089A0031BBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEBB9BF237A08970031BBE0 /* Project object */;
+}
