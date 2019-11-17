@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE64578A237F762C006B805E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE645789237F762C006B805E /* LoginViewController.swift */; };
+		AE645790237F8364006B805E /* rain.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE64578F237F8364006B805E /* rain.gif */; };
+		AE64579223810290006B805E /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64579123810290006B805E /* SwiftGif.swift */; };
+		AE64579423810430006B805E /* bigCats.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE64579323810430006B805E /* bigCats.gif */; };
+		AE64579623810B2C006B805E /* woodenButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE64579523810B2C006B805E /* woodenButton.jpg */; };
+		AE645798238120F6006B805E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE645797238120F6006B805E /* SignUpViewController.swift */; };
+		AE64579B23812BA0006B805E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE64579923812BA0006B805E /* FBSDKCoreKit.framework */; };
+		AE64579C23812BA0006B805E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE64579A23812BA0006B805E /* FBSDKLoginKit.framework */; };
 		AEEBB9D0237A089A0031BBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9CF237A089A0031BBE0 /* AppDelegate.swift */; };
 		AEEBB9D2237A089A0031BBE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB9D1237A089A0031BBE0 /* GameViewController.swift */; };
 		AEEBB9D5237A089A0031BBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEBB9D3237A089A0031BBE0 /* Main.storyboard */; };
@@ -82,6 +90,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE645789237F762C006B805E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE64578F237F8364006B805E /* rain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rain.gif; sourceTree = "<group>"; };
+		AE64579123810290006B805E /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		AE64579323810430006B805E /* bigCats.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bigCats.gif; sourceTree = "<group>"; };
+		AE64579523810B2C006B805E /* woodenButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodenButton.jpg; sourceTree = "<group>"; };
+		AE645797238120F6006B805E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AE64579923812BA0006B805E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AE64579A23812BA0006B805E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		AEEBB9C4237A08970031BBE0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		AEEBB9C5237A08970031BBE0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		AEEBB9C6237A08970031BBE0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -116,6 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE64579C23812BA0006B805E /* FBSDKLoginKit.framework in Frameworks */,
+				AE64579B23812BA0006B805E /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,9 +161,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE64578B237F7636006B805E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9D1237A089A0031BBE0 /* GameViewController.swift */,
+				AE645789237F762C006B805E /* LoginViewController.swift */,
+				AE645797238120F6006B805E /* SignUpViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AE64578C237F765E006B805E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9CF237A089A0031BBE0 /* AppDelegate.swift */,
+				AE64579123810290006B805E /* SwiftGif.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AE64578D237F76B5006B805E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBB9D3237A089A0031BBE0 /* Main.storyboard */,
+				AEEBB9D6237A089A0031BBE0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AE64578E237F834F006B805E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE64579523810B2C006B805E /* woodenButton.jpg */,
+				AE64579323810430006B805E /* bigCats.gif */,
+				AE64578F237F8364006B805E /* rain.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		AEEBB9BE237A08970031BBE0 = {
 			isa = PBXGroup;
 			children = (
+				AE64579923812BA0006B805E /* FBSDKCoreKit.framework */,
+				AE64579A23812BA0006B805E /* FBSDKLoginKit.framework */,
 				AEEBB9C3237A08970031BBE0 /* theFlyTrapGame Shared */,
 				AEEBB9CE237A089A0031BBE0 /* theFlyTrapGame iOS */,
 				AEEBB9E0237A089A0031BBE0 /* theFlyTrapGame watchOS App */,
@@ -182,10 +240,10 @@
 		AEEBB9CE237A089A0031BBE0 /* theFlyTrapGame iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AEEBB9CF237A089A0031BBE0 /* AppDelegate.swift */,
-				AEEBB9D1237A089A0031BBE0 /* GameViewController.swift */,
-				AEEBB9D3237A089A0031BBE0 /* Main.storyboard */,
-				AEEBB9D6237A089A0031BBE0 /* LaunchScreen.storyboard */,
+				AE64578E237F834F006B805E /* Images */,
+				AE64578D237F76B5006B805E /* Storyboards */,
+				AE64578C237F765E006B805E /* Classes */,
+				AE64578B237F7636006B805E /* View Controllers */,
 				AEEBB9D9237A089A0031BBE0 /* Info.plist */,
 			);
 			path = "theFlyTrapGame iOS";
@@ -378,9 +436,12 @@
 			files = (
 				AEEBBA12237A089A0031BBE0 /* GameScene.sks in Resources */,
 				AEEBB9D5237A089A0031BBE0 /* Main.storyboard in Resources */,
+				AE64579423810430006B805E /* bigCats.gif in Resources */,
 				AEEBBA0F237A089A0031BBE0 /* Actions.sks in Resources */,
 				AEEBB9D8237A089A0031BBE0 /* LaunchScreen.storyboard in Resources */,
+				AE645790237F8364006B805E /* rain.gif in Resources */,
 				AEEBBA1A237A089A0031BBE0 /* Assets.xcassets in Resources */,
+				AE64579623810B2C006B805E /* woodenButton.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +491,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE645798238120F6006B805E /* SignUpViewController.swift in Sources */,
+				AE64578A237F762C006B805E /* LoginViewController.swift in Sources */,
 				AEEBBA16237A089A0031BBE0 /* GameScene.swift in Sources */,
 				AEEBB9D2237A089A0031BBE0 /* GameViewController.swift in Sources */,
 				AEEBB9D0237A089A0031BBE0 /* AppDelegate.swift in Sources */,
+				AE64579223810290006B805E /* SwiftGif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +642,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -629,6 +694,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -722,6 +788,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN464L8C6V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "theFlyTrapGame iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -742,6 +813,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN464L8C6V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "theFlyTrapGame iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
